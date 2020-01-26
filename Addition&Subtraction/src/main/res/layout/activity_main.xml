@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="30dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:hint="First Number"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary"
+        />
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:hint="Second Number"
+        android:inputType="numberDecimal"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:text="Add"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:text="Sub"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/folafol"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        />
+
+</LinearLayout>
