@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CheckBox</string>
+    <string name="name">Check any box</string>
+    <string name="firstcbox">Shakib Al Hasan</string>
+    <string name="secondcbox">Jaque Kallis</string>
+    <string name="thirdcbox">Imran Khan</string>
+    <string name="show">Show</string>
+</resources>
