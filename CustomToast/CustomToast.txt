@@ -1,0 +1,16 @@
+custom toast create korar age toast er layout age thik korte hobe j toast ta dekhte kemon hobe
+
+layout > new > layout resource file
+
+MainActivity.java ->
+	public void onClick(View v){
+		LayoutInflater inflater = getLayoutInflater();	//LayoutInflater er akta variable niyechi..ai variable er akta method inflate use korar jnno
+		View viewName = inflater.inflate([resource dite hobe]R.layout.customtoast_layout, (ViewGroup)[custom toaster id]findViewById(R.id.custom_id ));
+	
+		Toast toast = new  Toast(MainActivity.this);
+
+		toast.setDuration(Toast.LENGTH_SHORT);
+		toast.setGravity(Gravity.CENTER,0,0);
+		toast.setView(viewName);
+		toast.show();
+	

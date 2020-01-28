@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomToast</string>
+    <string name="toasttext">You have clicked a wrong buton bro</string>
+</resources>
