@@ -1,0 +1,38 @@
+Converting:
+===========
+	web = findViewById(R.id.wv);
+        web.loadUrl("https://www.grameenphone.com/");
+
+Give internet permission to app:
+================================
+manifests -> <uses-permission android:name="android.permission.INTERNET" />
+
+Enable javascript:
+==========================
+WebSettings ws = web.getSettings();
+ws.setJavaScriptEnabled(true);
+
+
+Open other pages in same app:
+-----------------------------
+web.setWebViewClient(new WebViewClient());
+
+
+Hide action bar:
+================
+styles.xml -> NoActionBar
+
+
+Cange Icon & Label:
+===================
+manifests -> icon, label, roundicon
+
+
+Enable Backpress:
+=================
+public void onBackPressed() {
+        if(web.canGoBack())
+            web.goBack();
+        else
+            super.onBackPressed();
+    }
