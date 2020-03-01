@@ -1,0 +1,18 @@
+2ta layout thakbe, protita layout er jnno java file thakbe.
+
+Main page er layout er sathe second page er layout connect deoar jnno button er id te main java file e listener add korte hobe.
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                secondActivity();
+            }
+        });
+	public void secondActivity(){
+            Intent intent = new Intent(this, SecondActivity.class);
+            startActivity(intent);
+    }
+
+mainfests file e 2nd page ta register korte hobe (auto register hoye jay)
+	
+	<activity android:name=".SecondActivity" />
