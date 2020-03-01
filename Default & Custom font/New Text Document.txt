@@ -1,0 +1,14 @@
+default font er jnno 
+	android:typeface="monospace"
+
+custom font er jnno -> font download kore main folder e assets folder er vitor rakhte hobe.
+
+TextView r Typeface er variable create kore TextView er id find korte hobe.
+
+j font ta amra use korbo ta Typeface e convert korbo ->
+	tf = Typeface.createFromAsset(getAssets(), "font/Aaargh.ttf");
+
+then j TextView te font ta use korbo ta set korbo
+	tv.setTypeface(tf);
+
+

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CustomFont</string>
+    <string name="default_sans_serif_medium">Default sans-serif-medium!</string>
+    <string name="default_monospace">Default monospace</string>
+    <string name="custom_font_aaargh">Custom Font Aaargh</string>
+</resources>
