@@ -1,0 +1,8 @@
+Tools > Firebase > Realtime Database > Save and retrive data > Connect to Firebase >
+Add the Realtime Database to your app
+
+https://console.firebase.google.com/ -> Develop > Database > Create Database > Start in test mode
+    change Cloud Firestore to Realtime Database
+    go to Rules -> set everything true 
+
+change implementation 'com.google.firebase:firebase-database:19.2.1' to the latest version and sync
